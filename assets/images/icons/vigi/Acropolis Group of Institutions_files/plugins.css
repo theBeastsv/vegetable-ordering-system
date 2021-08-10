@@ -1,0 +1,564 @@
+/* -------------------Third party plugins support -----------------*/
+.tp_recent_tweets li {
+  background: none !important;
+  padding-left: 0 !important; }
+
+.tp_recent_tweets li a {
+  color: #fe5000 !important;
+  font-size: 12px !important;
+  font-weight: 400 !important;
+  font-style: normal !important; }
+
+.teal .tp_recent_tweets li a {
+  color: #28c2ba !important; }
+
+.orange .tp_recent_tweets li a {
+  color: #e25d33 !important; }
+
+.cyan .tp_recent_tweets li a {
+  color: #02accf !important; }
+
+.tp_recent_tweets li a:hover {
+  color: #55585b !important; }
+
+#footer .tp_recent_tweets li a:hover {
+  color: #e5e5e5 !important; }
+
+.tp_recent_tweets li .twitter_time {
+  padding: 15px 0 5px 45px;
+  display: inline-block;
+  background: url(../images/icons/twitter-bird-sidebar.png) no-repeat 0 14px transparent; }
+
+#footer .tp_recent_tweets li .twitter_time {
+  background-image: url(../images/icons/twitter-bird.png); }
+
+/* Brankic Photostream styling */
+.photostream ul li {
+  margin: 0 0 5px 5px !important;
+  padding: 0 0 5px 5px !important;
+  background: none !important;
+  border: none !important; }
+
+.photostream img, .photostream a {
+  width: 66px !important;
+  height: 66px !important; }
+
+.photostream img {
+  opacity: 1 !important; }
+
+.photostream a {
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out; }
+
+#footer .photostream a {
+  border-color: #666 !important; }
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+  .tp_recent_tweets li .twitter_time {
+    background-image: url(../images/icons/twitter-bird-sidebar@2x.png);
+    background-size: 32px 24px; }
+
+  #footer .tp_recent_tweets li .twitter_time {
+    background-image: url(../images/icons/twitter-bird@2x.png);
+    background-size: 32px 24px; } }
+/* WP Instagram Widget Styling */
+.widget .instagram-pics li {
+  width: 23%;
+  margin-right: 2%;
+  display: inline-block;
+  padding: 0; }
+
+.widget .instagram-pics img:hover {
+  background-color: #f4f4f4;
+  border: 4px solid #2a9dd6;
+  opacity: 0.8; }
+
+.widget .instagram-pics img {
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  -moz-transition: all 0.2s ease-in-out 0s;
+  -ms-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* =========================================== The Events Calendar Plugin =================================================== */
+#tribe-events-pg-template {
+  max-width: none; }
+  @media only screen and (max-width: 767px) {
+    #tribe-events-pg-template {
+      padding: 0; } }
+
+.tribe-events-list-separator-month {
+  clear: both; }
+
+.tribe-events-list-separator-month span {
+  background-color: #f7f7f7; }
+
+.events-list .tribe-events-loop .type-tribe_events, .tribe-events-list .tribe-events-loop .type-tribe_events, .tribe-events-day .tribe-events-loop .type-tribe_events,
+.single-tribe_venue .tribe-events-loop .type-tribe_events, .single-tribe_organizer .tribe-events-loop .type-tribe_events {
+  float: left;
+  padding: 30px 60px;
+  width: 50%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box; }
+  @media only screen and (max-width: 1024px) {
+    .events-list .tribe-events-loop .type-tribe_events, .tribe-events-list .tribe-events-loop .type-tribe_events, .tribe-events-day .tribe-events-loop .type-tribe_events,
+    .single-tribe_venue .tribe-events-loop .type-tribe_events, .single-tribe_organizer .tribe-events-loop .type-tribe_events {
+      padding: 30px 30px; } }
+  @media only screen and (max-width: 767px) {
+    .events-list .tribe-events-loop .type-tribe_events, .tribe-events-list .tribe-events-loop .type-tribe_events, .tribe-events-day .tribe-events-loop .type-tribe_events,
+    .single-tribe_venue .tribe-events-loop .type-tribe_events, .single-tribe_organizer .tribe-events-loop .type-tribe_events {
+      padding: 20px 0;
+      width: 100%; } }
+
+.events-list .tribe-events-loop .type-tribe_events:nth-of-type(2n+1), .tribe-events-list .tribe-events-loop .type-tribe_events:nth-of-type(2n+1),
+.tribe-events-day .tribe-events-loop .type-tribe_events:nth-of-type(2n+1), .single-tribe_venue .tribe-events-loop .type-tribe_events:nth-of-type(2n+1),
+.single-tribe_organizer .tribe-events-loop .type-tribe_events:nth-of-type(2n+1) {
+  clear: left; }
+
+.events-list .tribe-events-loop, .tribe-events-day .tribe-events-loop, .single-tribe_venue .tribe-events-loop, .single-tribe_organizer .tribe-events-loop {
+  max-width: none;
+  margin: 0 auto; }
+
+.tribe-events-list .tribe-events-event-image + div.tribe-events-content {
+  float: none;
+  width: 100%;
+  margin-top: 20px; }
+
+.tribe-events-list .tribe-events-event-image {
+  float: none;
+  width: 100%;
+  margin-top: 20px; }
+
+.tribe-events-list-separator-month + .vevent.hentry.tribe-events-first, .tribe-events-list .vevent.hentry.tribe-events-first {
+  padding-top: 30px; }
+
+.tribe-events-back {
+  margin: 20px 0; }
+
+#tribe-events-content .tribe-events-tooltip h4, #tribe_events_filters_wrapper .tribe_events_slider_val, .single-tribe_events a.tribe-events-ical,
+.single-tribe_events a.tribe-events-gcal {
+  color: #2a9dd6; }
+
+.tribe-events-calendar td.tribe-events-present div[id*="tribe-events-daynum-"], .tribe-events-calendar td.tribe-events-present div[id*="tribe-events-daynum-"] > a,
+#tribe_events_filters_wrapper input[type=submit], .tribe-events-button, #tribe-events .tribe-events-button, .tribe-events-button.tribe-inactive,
+#tribe-events .tribe-events-button:hover, .tribe-events-button:hover, .tribe-events-button.tribe-active:hover {
+  background: #2a9dd6; }
+
+.single-tribe_events .tribe-events-venue-map, .tribe-events-venue .tribe-events-map-wrap {
+  padding: 0;
+  border: none; }
+
+.single-tribe_events .tribe-events-schedule h3 {
+  color: #888; }
+
+.single-tribe_events h2.tribe-events-single-event-title {
+  font-size: 42px;
+  line-height: 52px; }
+  @media only screen and (max-width: 1024px) {
+    .single-tribe_events h2.tribe-events-single-event-title {
+      font-size: 28px;
+      line-height: 36px; } }
+  @media only screen and (max-width: 767px) {
+    .single-tribe_events h2.tribe-events-single-event-title {
+      font-size: 24px;
+      line-height: 32px; } }
+
+.tribe-events-list h2.tribe-events-list-event-title, .tribe-events-list .vevent.hentry h2 {
+  text-transform: none;
+  letter-spacing: 1px;
+  font-size: 24px;
+  line-height: 38px;
+  font-weight: 700; }
+
+.tribe-events-day-time-slot {
+  clear: both; }
+
+.tribe-events-list h2.tribe-events-page-title {
+  margin-top: 20px; }
+
+.tribe-events-organizer .tribe-events-organizer-meta {
+  max-width: 1000px; }
+
+.tribe-events-countdown-widget div.tribe-countdown-text {
+  font-family: "Lato", Arial, Helvetica, Verdana, sans-serif;
+  font-style: normal;
+  text-transform: none;
+  letter-spacing: 0;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 30px;
+  letter-spacing: 1px; }
+.tribe-events-countdown-widget .tribe-countdown-number {
+  font-family: "Lato", Arial, Helvetica, Verdana, sans-serif;
+  font-style: normal;
+  text-transform: none;
+  letter-spacing: 0;
+  font-weight: 700;
+  color: #555555; }
+
+.tribe-events-venue-widget .tribe-venue-widget-venue {
+  margin-bottom: 15px; }
+  .tribe-events-venue-widget .tribe-venue-widget-venue .tribe-venue-widget-venue-name a {
+    font-family: "Lato", Arial, Helvetica, Verdana, sans-serif;
+    font-style: normal;
+    text-transform: none;
+    letter-spacing: 0;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 1px; }
+
+.tribe-events-adv-list-widget .vcard.location {
+  font-size: 14px;
+  line-height: 24px; }
+.tribe-events-adv-list-widget .hentry.type-tribe_events {
+  margin-top: 10px; }
+.tribe-events-adv-list-widget h2.entry-title.summary {
+  font-size: 18px;
+  line-height: 26px;
+  margin: 0 0 5px 0; }
+
+.tribe-events-adv-list-widget ol li, .tribe-events-venue-widget ul li {
+  background: none;
+  padding: 0;
+  border: none;
+  border-top: 1px solid #dedede;
+  padding-top: 10px;
+  margin-bottom: 15px; }
+  .tribe-events-adv-list-widget ol li h4, .tribe-events-venue-widget ul li h4 {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 0;
+    letter-spacing: 1px;
+    text-transform: none;
+    font-weight: 700; }
+    .tribe-events-adv-list-widget ol li h4 a, .tribe-events-venue-widget ul li h4 a {
+      color: #555; }
+      .tribe-events-adv-list-widget ol li h4 a:hover, .tribe-events-venue-widget ul li h4 a:hover {
+        color: #2a9dd6; }
+  .tribe-events-adv-list-widget ol li:hover, .tribe-events-venue-widget ul li:hover {
+    padding-left: 0; }
+
+.tribe-events-adv-list-widget .duration {
+  font-weight: 400;
+  font-size: 14px; }
+
+/* Shortcode styling */
+.upcoming-events-list {
+  list-style-type: none;
+  margin: 0 0 15px 0; }
+  .upcoming-events-list li {
+    margin-bottom: 15px; }
+    .upcoming-events-list li:last-child {
+      margin-bottom: 0; }
+    .upcoming-events-list li h4 {
+      text-transform: none;
+      letter-spacing: 1px;
+      font-size: 18px;
+      line-height: 28px;
+      margin-bottom: 0; }
+      .upcoming-events-list li h4 a {
+        color: #444;
+        font-weight: 700;
+        letter-spacing: 0; }
+        .upcoming-events-list li h4 a:hover {
+          color: #2a9dd6; }
+    .upcoming-events-list li .duration {
+      font-size: 14px; }
+  .upcoming-events-list.simple-list {
+    margin: 0 0 20px 32px; }
+    .upcoming-events-list.simple-list li {
+      border-left: 1px solid #ddd; }
+    .upcoming-events-list.simple-list li:before {
+      color: #aaa;
+      font-size: 44px; }
+    .upcoming-events-list.simple-list > li {
+      padding-left: 1em; }
+
+/* =================================================== Revolution Slider =================================================== */
+.rev_slider_wrapper .tp-leftarrow.large {
+  z-index: 100;
+  cursor: pointer;
+  position: relative;
+  background: url(../images/sliders/large_left.png) no-repeat top left;
+  width: 22px;
+  height: 34px;
+  margin-left: 20px;
+  margin-top: -20px; }
+.rev_slider_wrapper .tp-rightarrow.large {
+  z-index: 100;
+  cursor: pointer;
+  position: relative;
+  background: url(../images/sliders/large_right.png) no-repeat top left;
+  width: 23px;
+  height: 34px;
+  margin-left: -20px;
+  margin-top: -20px; }
+.rev_slider_wrapper .tp-leftarrow:hover, .rev_slider_wrapper .tp-rightarrow:hover {
+  background-position: bottom left; }
+
+.video-js {
+  background: none !important; }
+
+.button.transparent {
+  background: rgba(255, 255, 255, 0);
+  border: 2px solid #fff;
+  text-shadow: none; }
+
+.button.transparent:hover {
+  background: rgba(255, 255, 255, 0.1) !important;
+  border-color: #f2f2f2 !important; }
+
+/* ------------ Navigation styling ------------- */
+.tp-bullets.simplebullets.round .bullet {
+  background-image: url(../images/sliders/bullet.png); }
+
+.tp-rightarrow.default, .tp-leftarrow.default {
+  width: 60px !important;
+  height: 60px !important; }
+
+.tp-rightarrow.default {
+  background-image: url(../images/sliders/large_right.png) !important; }
+  .tp-rightarrow.default:before {
+    content: ""; }
+
+.tp-leftarrow.default {
+  background-image: url(../images/sliders/large_left.png) !important; }
+  .tp-leftarrow.default:before {
+    content: ""; }
+
+.rev_slider_wrapper .tp-leftarrow:hover, .rev_slider_wrapper .tp-rightarrow:hover {
+  background-position: bottom left; }
+
+@media only screen and (max-width: 767px) {
+  .tp-bullets .bullet {
+    display: none; }
+
+  .tp-caption .button {
+    padding: 5px 8px;
+    font-size: 12px; } }
+@media only screen and (max-width: 479px) {
+  .tp-bullets {
+    display: none; }
+
+  .tp-caption .button {
+    padding: 4px 6px;
+    font-size: 11px; }
+
+  .tparrows {
+    display: none; } }
+/* =================================================== LearnDash =================================================== */
+#learndash_lessons #lesson_heading, #learndash_profile .learndash_profile_heading, #learndash_quizzes #quiz_heading, #learndash_lesson_topics_list div > strong {
+  background-color: #eee !important; }
+
+#learndash_lessons, #learndash_quizzes, .expand_collapse, .notavailable_message, #learndash_lesson_topics_list div > strong, #learndash_lesson_topics_list div ul > li .sn, .learndash_profile_heading, #learndash_profile a, #learndash_profile div {
+  font-size: 14px !important;
+  font-family: "Lato", Arial, Helvetica, Verdana, sans-serif !important;
+  text-transform: uppercase;
+  letter-spacing: 1px; }
+
+#learndash_lessons a, #learndash_quizzes a, .expand_collapse a, .learndash_topic_dots a, .learndash_topic_dots a > span, #learndash_lesson_topics_list span a, #learndash_profile a, #learndash_profile a span {
+  font-family: "Lato", Arial, Helvetica, Verdana, sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  color: #2a9dd6 !important; }
+
+.expand_collapse a, #learndash_profile .expand_collapse a {
+  text-transform: none;
+  color: #666 !important; }
+
+#learndash_lessons, #learndash_quizzes, #learndash_profile, #learndash_lesson_topics_list > div {
+  border-radius: 0 !important; }
+
+#learndash_course_materials {
+  margin-top: 20px; }
+
+#learndash_course_content #learndash_course_content_title {
+  margin-bottom: 15px !important; }
+
+.widget_sfwd-courses-widget h4 {
+  font-size: 18px;
+  line-height: 26px; }
+
+.widget_ldcourseprogress, .widget_sfwd-lessons-widget, .widget_ldcoursenavigation, .widget_ldcourseinfo {
+  background-color: #FFFFFF;
+  border: 1px solid #DDDDDD;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  margin-bottom: 20px; }
+  .widget_ldcourseprogress .widget-title, .widget_sfwd-lessons-widget .widget-title, .widget_ldcoursenavigation .widget-title, .widget_ldcourseinfo .widget-title {
+    background-color: #eee;
+    color: #333333;
+    border-bottom: 1px solid #DDDDDD;
+    padding: 5px 10px;
+    font-size: 16px;
+    font-weight: normal;
+    display: block; }
+
+.widget_ldcoursenavigation #course_navigation, .widget_ldcourseinfo #ld_course_info {
+  margin: 0 15px;
+  padding-bottom: 15px; }
+
+.widget_ldcourseinfo #ld_course_info {
+  font-size: 14px;
+  line-height: 22px; }
+  .widget_ldcourseinfo #ld_course_info h4 {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400; }
+  .widget_ldcourseinfo #ld_course_info .ld-course-info-my-courses h2 {
+    font-size: 14px;
+    line-height: 24px;
+    vertical-align: top;
+    display: inline-block; }
+  .widget_ldcourseinfo #ld_course_info #course_progress_details > strong {
+    font-family: "Lato", Arial, Helvetica, Verdana, sans-serif; }
+  .widget_ldcourseinfo #ld_course_info .ld-course-info-my-courses {
+    margin-top: 10px; }
+
+#course_navigation .learndash_nevigation_lesson_topics_list .lesson {
+  margin: 0 0 5px 5px !important; }
+  #course_navigation .learndash_nevigation_lesson_topics_list .lesson a {
+    font-family: "Lato", Arial, Helvetica, Verdana, sans-serif;
+    font-size: 13px !important; }
+#course_navigation .learndash_topic_widget_list a > span {
+  font-family: "Lato", Arial, Helvetica, Verdana, sans-serif;
+  font-size: 13px !important; }
+
+.widget_course_return, #course_navigation .widget_course_return a {
+  font-family: "Lato", Arial, Helvetica, Verdana, sans-serif;
+  font-size: 13px !important; }
+
+#learndash_uploaded_assignments h2 {
+  font-size: 22px;
+  line-height: 28px; }
+
+/* WP Pro Quiz Styling */
+.wpProQuiz_content h2 {
+  position: relative;
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 35px !important; }
+  .wpProQuiz_content h2:after {
+    content: "";
+    width: 60px;
+    border-bottom: 4px solid #2a9dd6;
+    line-height: 0;
+    position: absolute;
+    bottom: -15px;
+    left: 0; }
+.wpProQuiz_content table tr {
+  background-color: transparent !important; }
+.wpProQuiz_content input[type="checkbox"] {
+  margin-right: 5px !important; }
+
+.wpProQuiz_forms table {
+  border-collapse: collapse !important;
+  width: 100% !important; }
+  .wpProQuiz_forms table td {
+    padding: 8px 0 !important; }
+    .wpProQuiz_forms table td label {
+      text-transform: uppercase;
+      font-family: "Lato", Arial, Helvetica, Verdana, sans-serif;
+      font-size: 14px;
+      letter-spacing: 1px; }
+.wpProQuiz_forms select {
+  min-width: 120px; }
+.wpProQuiz_forms input[type="radio"], .wpProQuiz_forms input[type="checkbox"] {
+  margin-right: 5px !important; }
+.wpProQuiz_forms input[type="radio"] {
+  margin-left: 10px !important; }
+@media only screen and (max-width: 479px) {
+  .wpProQuiz_forms table td, .wpProQuiz_forms table tr {
+    display: block !important;
+    padding: 2px 0 !important; }
+  .wpProQuiz_forms table tr {
+    margin-bottom: 10px; } }
+
+.wpProQuiz_button, .wpProQuiz_button:hover {
+  border-radius: 0 !important;
+  padding: 6px 20px !important;
+  background-color: #2a9dd6 !important;
+  border-color: #2a9dd6 !important;
+  box-shadow: none !important;
+  margin-top: 8px !important; }
+
+.wpProQuiz_questionList {
+  padding: 12px 4px !important; }
+
+.wpProQuiz_questionListItem {
+  margin: 8px !important; }
+  .wpProQuiz_questionListItem:first-child {
+    margin-top: 0 !important; }
+  .wpProQuiz_questionListItem input[type="radio"], .wpProQuiz_questionListItem input[type="checkbox"], .wpProQuiz_questionListItem span {
+    font-family: "Lato", Arial, Helvetica, Verdana, sans-serif !important;
+    padding-left: 10px; }
+  .wpProQuiz_questionListItem span, .wpProQuiz_questionListItem label {
+    margin-right: 10px !important; }
+
+.wpProQuiz_maxtrixSortText {
+  font-family: "Lato", Arial, Helvetica, Verdana, sans-serif; }
+
+.wpProQuiz_sortable, .wpProQuiz_sortStringItem {
+  padding: 5px 10px !important;
+  font-family: "Lato", Arial, Helvetica, Verdana, sans-serif; }
+
+.wpProQuiz_answerCorrect label, .wpProQuiz_answerCorrect span {
+  font-weight: normal !important; }
+
+.wpProQuiz_answerIncorrect .wpProQuiz_sortable, .wpProQuiz_answerIncorrect .wpProQuiz_sortStringItem, .wpProQuiz_answerCorrect .wpProQuiz_sortable, .wpProQuiz_answerCorrect .wpProQuiz_sortStringItem {
+  border: none !important; }
+
+.wpProQuiz_response, .wpProQuiz_matrixSortString {
+  padding: 10px 15px !important; }
+
+.wpProQuiz_listItem {
+  margin-top: 50px !important; }
+
+.btn-join, #btn-join, a#quiz_continue_link {
+  border-radius: 0 !important; }
+
+#learndash_next_prev_link, #learndash_back_to_lesson {
+  text-transform: uppercase;
+  font-family: "Lato", Arial, Helvetica, Verdana, sans-serif;
+  font-size: 16px;
+  letter-spacing: 1px; }
+
+/* Archive styling */
+.ld-entry-content .attachment-post-thumbnail {
+  margin: 0 0 20px 0 !important;
+  width: 100%; }
+
+#content .hentry h2.ld-entry-title {
+  font-size: 32px;
+  line-height: 42px;
+  margin: 0 0 20px 0 !important; }
+
+#content .ld-entry-content {
+  padding: 0 0 15px 0;
+  margin: 0 0 20px 0 !important;
+  border-bottom: 1px solid #ddd; }
+
+#ld_course_info_mycourses_list .ld-course-info-my-courses {
+  margin-top: 20px;
+  max-width: 300px; }
+  #ld_course_info_mycourses_list .ld-course-info-my-courses img {
+    max-width: none !important;
+    width: 100% !important;
+    margin-bottom: 10px; }
+  #ld_course_info_mycourses_list .ld-course-info-my-courses .ld-entry-title {
+    font-size: 24px !important;
+    line-height: 32px !important;
+    width: 100% !important;
+    text-align: center; }
+    .widget_ldcourseinfo #ld_course_info_mycourses_list .ld-course-info-my-courses .ld-entry-title {
+      font-size: 16px !important;
+      line-height: 24px !important;
+      margin-bottom: 10px; }
+
+

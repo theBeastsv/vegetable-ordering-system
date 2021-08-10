@@ -1,0 +1,16 @@
+/**
+ *
+ * Custom.css file helps you override css style elements defined in style.css and the skins too. Very handy for customization without touching the
+ * theme code.
+ * You may want to backup and retain this file when updating the theme to retain customizations.
+ *
+ */
+
+p.comments-closed {
+    display: none;
+    }
+
+#page-loading {
+    z-index: 10010;
+    background: #FFF url(http://portfoliotheme.org/wp-content/uploads/2014/05/Preloader_11.gif) no-repeat 50% 50%;
+    }

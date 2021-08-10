@@ -1,0 +1,3 @@
+<?  
+include("cpages/myaccountinner.php");
+?>

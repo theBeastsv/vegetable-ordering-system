@@ -1,0 +1,14 @@
+[20-Nov-2017 15:37:49 Asia/Kolkata] PHP Warning:  Division by zero in /home/aronkes/public_html/adminp/forms/product_image.php on line 91
+[20-Nov-2017 15:37:49 Asia/Kolkata] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error:  in /home/aronkes/public_html/adminp/config/config.php on line 347
+[20-Nov-2017 15:37:49 Asia/Kolkata] PHP Warning:  imagecreatefromjpeg(): '../../imuploads/dpload/4/75/f96c6cbd57f0428031ce2988caac4ab0.jpg' is not a valid JPEG file in /home/aronkes/public_html/adminp/config/config.php on line 347
+[20-Nov-2017 15:37:49 Asia/Kolkata] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/aronkes/public_html/adminp/config/config.php on line 349
+[20-Nov-2017 15:37:49 Asia/Kolkata] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/aronkes/public_html/adminp/config/config.php on line 350
+[20-Nov-2017 15:37:49 Asia/Kolkata] PHP Warning:  imagecopyresized() expects parameter 2 to be resource, boolean given in /home/aronkes/public_html/adminp/config/config.php on line 363
+[20-Nov-2017 15:37:49 Asia/Kolkata] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error:  in /home/aronkes/public_html/adminp/config/config.php on line 347
+[20-Nov-2017 15:37:49 Asia/Kolkata] PHP Warning:  imagecreatefromjpeg(): '../../imuploads/dpload/4/75/f96c6cbd57f0428031ce2988caac4ab0.jpg' is not a valid JPEG file in /home/aronkes/public_html/adminp/config/config.php on line 347
+[20-Nov-2017 15:37:49 Asia/Kolkata] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/aronkes/public_html/adminp/config/config.php on line 349
+[20-Nov-2017 15:37:49 Asia/Kolkata] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/aronkes/public_html/adminp/config/config.php on line 350
+[20-Nov-2017 15:37:49 Asia/Kolkata] PHP Warning:  Division by zero in /home/aronkes/public_html/adminp/config/config.php on line 357
+[20-Nov-2017 15:37:49 Asia/Kolkata] PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in /home/aronkes/public_html/adminp/config/config.php on line 360
+[20-Nov-2017 15:37:49 Asia/Kolkata] PHP Warning:  imagecopyresized() expects parameter 1 to be resource, boolean given in /home/aronkes/public_html/adminp/config/config.php on line 363
+[20-Nov-2017 15:37:49 Asia/Kolkata] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home/aronkes/public_html/adminp/config/config.php on line 378
